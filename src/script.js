@@ -12,7 +12,7 @@ export function render({ model, el }) {
     function drawDot(x, y) {
         ctx.beginPath();
         ctx.arc(x, y, DOT_RADIUS, 0, Math.PI * 2);
-        ctx.fillStyle = 'red';
+        ctx.fillStyle = model.get("colour");
         ctx.fill();
     }
 
