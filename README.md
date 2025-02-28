@@ -1,4 +1,4 @@
-# Adapting Anywidget demo for QuGAT
+# Adapting Anywidget demo for QuCAT
 
 Initial example from https://anywidget.dev/en/getting-started/.
 
