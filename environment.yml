@@ -8,3 +8,4 @@ dependencies:
   - conda-forge::jupyterlab=4.3.5
   - conda-forge::watchfiles=1.0.4
   - ipykernel=6.29.5
+  - conda-forge::nbdime=4.0.2
