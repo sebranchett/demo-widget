@@ -13,3 +13,4 @@ dependencies:
   - conda-forge::esbuild=0.24.2
   - pip:
     - build==1.2.2.post1
+    - twine==6.1.0

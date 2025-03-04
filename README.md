@@ -31,7 +31,7 @@ In a virtual environment (e.g. conda or venv), install the package in editable m
 
 ```sh
 python -m pip install -e ".[dev]"
-jupyter lab esbuild-example.ipynb
+jupyter lab
 ```
 
 The widget front-end code bundles it's JavaScript dependencies. After setting up Python, install these dependencies locally:
@@ -48,5 +48,13 @@ npm run dev
 ```
 To close the dev server, hit Ctrl-C
 
-Open `esbuild-example.ipynb` to start developing. Changes made in `js/` will be reflected
-in the notebook.
+### Packaging
+```sh
+python -m build
+python3 -m twine upload --repository testpypi dist/*
+```
+
+### Installation from test.pypi.org
+```sh
+python -m pip install -i https://test.pypi.org/simple/ demo-widget==0.0.1
+```
