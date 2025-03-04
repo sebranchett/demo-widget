@@ -11,3 +11,5 @@ dependencies:
   - conda-forge::nbdime=4.0.2
   - conda-forge::nodejs=22.13.0
   - conda-forge::esbuild=0.24.2
+  - pip:
+    - build==1.2.2.post1
