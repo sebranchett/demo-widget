@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "demo-widget"
+name = "demo_widget"
 version = "0.0.1"
 dependencies = ["anywidget"]
 readme = "README.md"
