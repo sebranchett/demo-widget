@@ -21,7 +21,6 @@ dev = ["watchfiles", "jupyterlab"]
 
 
 [tool.hatch.build]
-only-packages = true
 artifacts = ["demo_widget/static/*"]
 
 [tool.hatch.build.hooks.jupyter-builder]
