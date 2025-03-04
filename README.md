@@ -27,11 +27,9 @@ python -m pip install demo-widget
 
 ### Development
 
-Create and manage a virtual environment:
+In a virtual environment (e.g. conda or venv), install the package in editable mode:
 
 ```sh
-python -m venv .venv
-source .venv/bin/activate
 python -m pip install -e ".[dev]"
 jupyter lab esbuild-example.ipynb
 ```

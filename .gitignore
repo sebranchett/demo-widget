@@ -7,5 +7,6 @@ dist
 __pycache__
 .ipynb_checkpoints
 
+.vscode/
 demo_widget/static
 package-lock.json
