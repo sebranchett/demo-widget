@@ -1,1 +1,11 @@
-.ipynb_checkpoints/
+node_modules
+.venv
+dist
+.DS_Store
+
+# Python
+__pycache__
+.ipynb_checkpoints
+
+demo_widget/static
+package-lock.json
