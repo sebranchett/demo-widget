@@ -48,6 +48,11 @@ npm run dev
 ```
 To close the dev server, hit Ctrl-C
 
+### Bundling
+```sh
+esbuild --bundle --format=esm --outdir=demo_widget/static src/script.js  # add "--watch" for development
+```
+
 ### Packaging
 ```sh
 python -m build
